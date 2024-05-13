@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from the repository
-                git branch: 'i201751', url: 'https://github.com/mlooopsformlops/CA4.git'
+                git branch: 'i200649', url: 'https://github.com/mlooopsformlops/CA4.git'
             }
         }
         
